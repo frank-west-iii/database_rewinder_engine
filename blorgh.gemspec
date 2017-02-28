@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 5.0.1"
 
   s.add_development_dependency "pg"
+  s.add_development_dependency "database_rewinder"
   s.add_development_dependency "factory_girl"
   s.add_development_dependency "ffaker"
   s.add_development_dependency "rspec-rails"
